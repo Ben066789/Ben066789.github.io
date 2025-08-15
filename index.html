@@ -1,0 +1,16 @@
+<html>
+<head></head>
+<body>
+<button onclick="f()">click me!</button>
+<p id="p-el">*</p>
+<script>
+  function f(){
+    let pEl = document.getElementId("p-el")
+    while(true){
+      pEl += "childAppened"
+      document.body.appendChild(document.addElement("div"))
+    }
+  }
+</script>
+</body>
+</html>
